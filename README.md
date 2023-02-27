@@ -1,4 +1,4 @@
-#UniDL4BioPep_ASL_PyTorch
+# UniDL4BioPep_ASL_PyTorch
 
 Welcome to UniDL4BioPep_PyTorch
 Here, you will see a simple piece of code applies the methodology proposed in the research paper **UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity** with the [loss function](https://github.com/Alibaba-MIIL/ASL) aiming for better performances on imbalanced datasets.
