@@ -23,7 +23,9 @@ test_d_file = os.path.join(os.getcwd(), "test_embedded.csv")
 You can leave ```d_file```s as they are and change ```l_file```s to any other excel documents.
 
 **Hyparameters for tunning in your own dataset**
+
 Go to the ```class AsymmetricLoss(nn.Module); class ASLSingleLabel(nn.Module); class AsymmetricLossOptimized(nn.Module)```, then you can find two parameters ```gamma_neg=4, gamma_pos=1```
+
 The Spirit of ASL function is to adjust the two parameters to obtain a better performance. The detailed information about the three ASL function, please refer to [ASL function](https://github.com/Alibaba-MIIL/ASL).
 
 ## 
